@@ -22,13 +22,9 @@
 
 ## Slack + Cloud Agent
 
-[docs/cloud-agent-slack.md](./docs/cloud-agent-slack.md) を参照。
-
-概要:
-
-1. [Cloud Agents ダッシュボード](https://cursor.com/dashboard?tab=cloud-agents) で GitHub 連携を有効化
-2. Cursor Automations で Slack トリガー + このリポジトリを指定
-3. エージェントは `AGENTS.md` と `.cursor/skills/general-partner/` に従って動作
+1. [docs/github-setup.md](./docs/github-setup.md) — GitHub へ push
+2. [docs/cloud-agent-slack.md](./docs/cloud-agent-slack.md) — Slack Automation 設定
+3. Automation 下書き: [docs/automation-slack-prefill.json](./docs/automation-slack-prefill.json)
 
 ## ライセンス
 

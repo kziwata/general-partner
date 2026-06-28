@@ -11,7 +11,9 @@ general-partner を Slack 上の Cloud Agent として動かす手順。
 
 ## 1. GitHub リポジトリ
 
-リポジトリ: `https://github.com/kziwata/general-partner`（作成後に URL を確認）
+まず [github-setup.md](./github-setup.md) の手順で GitHub に push してください。
+
+リポジトリ URL 例: `https://github.com/<your-username>/general-partner`
 
 Cloud Agent はこのリポジトリを clone して動作する。以下がエージェントの指示源:
 
@@ -33,7 +35,7 @@ Cursor の Automations で新規作成:
 |------|----------|
 | 名前 | General Partner — Slack |
 | トリガー | Slack — チャンネルの新規メッセージ |
-| リポジトリ | `kziwata/general-partner` / `main` |
+| リポジトリ | `general-partner` / `main`（GitHub push 後に Automations で選択） |
 | ツール | Slack への返信（スレッド返信を推奨） |
 | メモリ | 有効 |
 
