@@ -1,0 +1,30 @@
+{
+  "name": "General Partner — Slack",
+  "description": "Slack から general-partner エージェントを起動。壁打ち・整理・調査・タスク管理。",
+  "workflow": {
+    "triggers": [
+      {
+        "slackTrigger": {}
+      }
+    ],
+    "actions": [
+      {
+        "slack": {}
+      }
+    ],
+    "prompts": [
+      {
+        "prompt": "あなたは general-partner です。AGENTS.md と .cursor/skills/general-partner/SKILL.md に従ってください。\n\nSlack からの依頼に対して:\n1. モード（Think / Organize / Search / Task）を判定して宣言\n2. 簡潔に日本語で応答（長文はスレッドへ）\n3. 重要な内容は partner/ 配下の Markdown に保存\n4. コード実装は行わず、整理・調査・タスク管理に専念\n\nユーザーのメッセージに応答してください。"
+      }
+    ],
+    "model": "",
+    "agentOptions": {
+      "skipInstall": true
+    },
+    "memoryEnabled": true,
+    "gitConfig": {
+      "repo": "general-partner",
+      "branch": "main"
+    }
+  }
+}
