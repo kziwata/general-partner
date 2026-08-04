@@ -12,6 +12,12 @@
 | [NOTES.md](./NOTES.md) | 整理済み参考情報 |
 | [sessions/](./sessions/) | セッション記録 |
 
+## 関連作業場
+
+| Path | Purpose |
+|------|---------|
+| [`competitions/data-science-osaka-summer-2026/`](../competitions/data-science-osaka-summer-2026/) | DSOS2026 コンペ用ローカル環境 |
+
 ## 他プロジェクトへ展開
 
 新しいプロジェクトでは [docs/partner-template/](../docs/partner-template/) を `docs/partner/` にコピーして使う。
