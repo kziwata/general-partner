@@ -3,3 +3,15 @@ Thumbs.db
 *.tmp
 .env
 .env.*
+
+# Python / Kaggle competition local artifacts
+**/.venv/
+**/__pycache__/
+*.pyc
+competitions/**/data/competition/*
+!competitions/**/data/competition/.gitkeep
+competitions/**/submissions/*
+!competitions/**/submissions/.gitkeep
+*.zip
+kaggle.json
+.access_token
